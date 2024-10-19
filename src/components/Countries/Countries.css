@@ -3,3 +3,16 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
 }
+.flags-container-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.flags-container-img img{
+    width: 50px;
+    gap: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
